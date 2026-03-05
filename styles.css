@@ -1,0 +1,186 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f0ede5; 
+    
+    background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png");
+    
+    font-family: 'Lora', serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+#main {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fdfbf7;
+    padding: 60px;
+    border-radius: 4px;
+    
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#title {
+    font-family: 'Playfair Display', serif;
+    
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #8b6914; 
+}
+
+#img-div {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #e0d7bc;
+    margin-bottom: 50px;
+    
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+    
+    transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+    filter: grayscale(15%);
+}
+
+#img-div:hover #image {
+    filter: grayscale(0%); 
+    transform: scale(1.05) translateY(-5px); 
+    
+    
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+#img-caption {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+
+
+#tribute-info {
+    margin-bottom: 50px;
+}
+
+#tribute-info h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+    color: #1a1a1a;
+}
+
+#tribute-info ul {
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#tribute-info li {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    display: flex;
+    align-items: baseline;
+}
+
+#tribute-info strong {
+    background: #8b6914; 
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin-right: 15px;
+    font-family: 'Playfair Display', serif;
+    min-width: 65px;
+    text-align: center;
+}
+
+
+#tribute-info li:first-child::first-letter {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    float: left;
+    line-height: 0.8;
+    padding-right: 12px;
+    color: #8b6914;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.05);
+}
+
+
+.quote-area {
+    background-color: #f9f7f0;
+    border-left: 5px solid #8b6914;
+    padding: 30px;
+    margin: 40px 0;
+    font-style: italic;
+}
+
+blockquote p {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+cite {
+    font-style: normal;
+    font-weight: bold;
+    color: #8b6914;
+}
+
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: #8b6914;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+#tribute-link:hover {
+    border-bottom: 2px solid #8b6914;
+    color: #1a1a1a;
+}
+
+
+@media (max-width: 600px) {
+    #main { padding: 20px; }
+    
+    #tribute-info li { flex-direction: column; }
+    #tribute-info strong { margin-bottom: 5px; }
+}
