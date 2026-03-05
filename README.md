@@ -7,7 +7,7 @@ This is a **Tribute Page** dedicated to the legendary Catalan architect **Antoni
 
 This is a **Tribute Page** dedicated to the legendary Catalan architect **Antoni Gaudí**. This project is part of the Legacy Responsive Web Design certification from **freeCodeCamp**.
 
-[Live Demo 🚀](https://laddtnov.github.io/fcc-css-challenges/tribute-page/)
+[Live Demo 🚀](https://laddtnov.github.io/tribute-page/)
 
 ---
 
@@ -26,14 +26,9 @@ This is a **Tribute Page** dedicated to the legendary Catalan architect **Antoni
 * **CSS3** - Custom styling, Flexbox, and transitions.
 * **Google Fonts** - Typography.
 
-## 📸 Preview
+## 📸 Preview(https://laddtnov.github.io/tribute-page/)
 
 > "Originality consists of returning to the origin." — Antoni Gaudí
 
 ---
 
-## 🏗️ How to run locally
-
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/laddtnov/fcc-css-challenges.git](https://github.com/laddtnov/fcc-css-challenges.git)
